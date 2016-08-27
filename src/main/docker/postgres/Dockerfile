@@ -1,0 +1,4 @@
+FROM library/postgres
+ENV POSTGRES_USER cacti
+ENV POSTGRES_PASSWORD cacti
+ENV POSTGRES_DB cacti_data

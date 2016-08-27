@@ -1,0 +1,6 @@
+CREATE TABLE personas (
+	id VARCHAR(255) PRIMARY KEY,
+	nombre VARCHAR(255) NOT NULL,
+	apellido VARCHAR(255) NOT NULL,
+	edad INT NOT NULL
+);
